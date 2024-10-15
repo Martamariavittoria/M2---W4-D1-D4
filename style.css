@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faebbe;
+    color: #8f8f8f;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #194979;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+    color: #194979;
+}
+
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: #9cbfe8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ffa251;
+    transition: 0.5s;
+}
+
+section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #aecffc;
+    border: 1px solid #153d74;
+
+}
+
+#jobTitle {
+    background-color: rgb(205, 226, 245);
+}
+
+
+#jobLocation {
+    background-color: rgb(205, 226, 245);
+}
+
+#RisultatiRicerca {
+    color: black;
+}

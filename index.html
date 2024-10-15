@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio W4D1-D4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Search jobs</h1>
+
+    <!--  input ricerca lavoro + posizione -->
+    <label> Posizione lavorativa</label>
+    <input type="text" id="jobTitle">
+
+    <label> Posizione geografica</label>
+    <input type="text" id="jobLocation">
+
+    <button id="searchButton" onclick="searchJobs()">premi </button>
+
+    <!-- section risultati della ricerca -->
+    <section>
+        <div class="contenitore1">
+            <h3 style=" color: black">Risultati della ricerca</h3>
+            <div id="conta">
+                "Risultati trovati : 0 "
+            </div>
+            <ul id="RisultatiRicerca"></ul>
+    </section>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
